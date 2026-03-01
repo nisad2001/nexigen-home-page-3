@@ -40,19 +40,18 @@ const Banner = () => {
         </div>
         {/* group images left */}
 
-        <div className='absolute -left-[134px] top-[14px] bg-white shadow-[20px_40px_80px_0px_rgba(0,0,0,0.25)] flex items-center -space-x-6 rounded-[16px] p-5 w-[163px] h-auto'>
+        {/* Group images left (hide on small devices) */}
+        <div className='hidden lg:flex absolute -left-[134px] top-[14px] bg-white shadow-[20px_40px_80px_0px_rgba(0,0,0,0.25)] flex items-center -space-x-6 rounded-[16px] p-5 w-[163px] h-auto'>
           <img
             src='/assets/images/skillimage3.png'
             className='w-[54px] h-[54px] relative z-10'
             alt=''
           />
-
           <img
             src='/assets/images/skillimage2.png'
             className='w-[54px] h-[54px] relative z-20'
             alt=''
           />
-
           <img
             src='/assets/images/skillimage1.png'
             className='w-[54px] h-[54px] relative z-30'
@@ -60,15 +59,15 @@ const Banner = () => {
           />
         </div>
         {/* overview card left */}
-        <div className='absolute -left-[186px] -bottom-[166px] rounded-[6px] '>
+        <div className='hidden lg:block absolute -left-[186px] -bottom-[166px] rounded-[6px] '>
           <img src='/assets/images/Overview - Light.png' alt='' />
         </div>
         {/* customer growth right */}
-        <div className='absolute -right-[160px] -bottom-[180px] '>
+        <div className='hidden lg:block absolute -right-[160px] -bottom-[180px] '>
           <img src='/assets/images/Customer Growth - Light.png' alt='' />
         </div>
         {/* pattern right */}
-        <div className='absolute -right-[50px] bottom-[347px] '>
+        <div className='hidden lg:block absolute -right-[50px] bottom-[347px] '>
           <img src='/assets/images/pattern 1.png' alt='' />
         </div>
       </div>
