@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className='w-full md:w-1/2 mt-16 md:mt-[178px] mb-12 md:mb-[87px]'>
           <div className='w-full'>
             <img
-              src='/public/assets/images/aboutImg .png'
+              src='/assets/images/aboutImg .png'
               alt='about'
               className='w-full h-[220px] md:h-[353px] object-cover'
             />
