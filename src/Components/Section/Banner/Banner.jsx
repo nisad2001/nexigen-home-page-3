@@ -1,10 +1,11 @@
 import React from "react";
+import BannerCard from "./BannerCard/BannerCard";
 
 const Banner = () => {
   return (
     <div className='max-w-[1169px] mx-auto flex flex-col lg:flex-row   justify-start gap-50 items-center mt-[103px] mb-50 '>
       {/* banner left */}
-      <div className='text-center md:text-left'>
+      <div className='text-center md:text-left '>
         <p className='text-[#6140FF] font-normal text-[14px] leading-[22px] uppercase'>
           Welcome to NexiGen
         </p>
@@ -39,7 +40,7 @@ const Banner = () => {
         </div>
         {/* group images left */}
 
-        <div className='absolute right-[315px] top-[14px] bg-white shadow-[20px_40px_80px_0px_rgba(0,0,0,0.25)] flex items-center -space-x-6 rounded-[16px] p-5 w-[163px] h-auto'>
+        <div className='absolute -left-[134px] top-[14px] bg-white shadow-[20px_40px_80px_0px_rgba(0,0,0,0.25)] flex items-center -space-x-6 rounded-[16px] p-5 w-[163px] h-auto'>
           <img
             src='/assets/images/skillimage3.png'
             className='w-[54px] h-[54px] relative z-10'
@@ -59,15 +60,15 @@ const Banner = () => {
           />
         </div>
         {/* overview card left */}
-        <div className='absolute right-[200px] top-[339px] rounded-[6px] w-full h-auto'>
+        <div className='absolute -left-[186px] -bottom-[166px] rounded-[6px] '>
           <img src='/assets/images/Overview - Light.png' alt='' />
         </div>
         {/* customer growth right */}
-        <div className='absolute left-[150px] top-[245px] w-full h-auto'>
+        <div className='absolute -right-[160px] -bottom-[180px] '>
           <img src='/assets/images/Customer Growth - Light.png' alt='' />
         </div>
         {/* pattern right */}
-        <div className='absolute left-[286px] bottom-[347px] w-full h-auto'>
+        <div className='absolute -right-[50px] bottom-[347px] '>
           <img src='/assets/images/pattern 1.png' alt='' />
         </div>
       </div>

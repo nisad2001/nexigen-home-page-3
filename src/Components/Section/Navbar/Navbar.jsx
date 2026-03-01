@@ -69,7 +69,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className='navbar mt-2 max-w-[1169px] mx-auto flex justify-between items-center'>
+    <div className='navbar mt-2 max-w-[1170px] mx-auto flex justify-between items-center'>
       {/* Left Side */}
       <div className='flex items-center gap-8'>
         {/* Mobile Menu */}
