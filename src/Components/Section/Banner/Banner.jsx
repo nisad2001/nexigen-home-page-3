@@ -3,7 +3,7 @@ import BannerCard from "./BannerCard/BannerCard";
 
 const Banner = () => {
   return (
-    <div className='max-w-[1169px] mx-auto flex flex-col lg:flex-row   justify-start gap-50 items-center mt-[103px] mb-50 '>
+    <div className='max-w-[1169px] mx-auto flex flex-col lg:flex-row justify-start gap-10 lg:gap-50 items-center mt-[103px] mb-20 lg:mb-50'>
       {/* banner left */}
       <div className='text-center md:text-left '>
         <p className='text-[#6140FF] font-normal text-[14px] leading-[22px] uppercase'>
