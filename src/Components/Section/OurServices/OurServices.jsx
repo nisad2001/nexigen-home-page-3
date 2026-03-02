@@ -38,7 +38,7 @@ const OurServices = () => {
             <img src={service.img} alt='' className='w-full' />
 
             {/* Hover text over image */}
-            <h3 className='absolute top-64 w-full text-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none'>
+            <h3 className='absolute top-64 w-full text-center text-white text-[22px] leading-[120%] font-semibold opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none'>
               {service.title}
             </h3>
 
