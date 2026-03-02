@@ -12,7 +12,7 @@ const AboutUs = () => {
             <img
               src='/assets/images/aboutImg .png'
               alt='about'
-              className='w-full h-[220px] md:h-[353px] object-cover'
+              className='w-full h-[220px] md:h-[370px] object-cover'
             />
           </div>
 
