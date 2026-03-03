@@ -7,6 +7,7 @@ import ChooseUs from "../Components/Section/AboutUs/ChooseUs/ChooseUs";
 import OurServices from "../Components/Section/OurServices/OurServices";
 import OurTeam from "../Components/Section/OurTeam/OurTeam";
 import Testimonial from "../Components/Section/Testimonial/Testimonial";
+import LatestNews from "../Components/Section/LatestNews/LatestNews";
 
 const testimonialPromise = fetch("/testimonial.json").then((res) => res.json());
 
@@ -20,6 +21,7 @@ const Home = () => {
       <OurServices></OurServices>
       <OurTeam></OurTeam>
       <Testimonial testimonialPromise={testimonialPromise}></Testimonial>
+      <LatestNews></LatestNews>
     </div>
   );
 };
